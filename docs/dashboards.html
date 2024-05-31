@@ -1,0 +1,1184 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.549">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Of Weak Intensity or Greater">
+
+<title>PET Estatística - Recent Earthquakes in Aotearoa New Zealand</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./logo.jpg" rel="icon" type="image/jpeg">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-dashboard/quarto-dashboard.js"></script>
+<script src="site_libs/quarto-dashboard/stickythead.js"></script>
+<script src="site_libs/quarto-dashboard/datatables.min.js" kdttablesentinel="true"></script>
+<script src="site_libs/quarto-dashboard/pdfmake.min.js" kdttablesentinel="true"></script>
+<script src="site_libs/quarto-dashboard/vfs_fonts.js" kdttablesentinel="true"></script>
+<script src="site_libs/quarto-dashboard/web-components.js" type="module"></script>
+<script src="site_libs/quarto-dashboard/components.js"></script>
+<link href="site_libs/quarto-dashboard/datatables.min.css" rel="stylesheet" kdttablesentinel="true">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script src="site_libs/htmlwidgets-1.6.2/htmlwidgets.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<link href="site_libs/leaflet-1.3.1/leaflet.css" rel="stylesheet">
+<script src="site_libs/leaflet-1.3.1/leaflet.js"></script>
+<link href="site_libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet">
+<script src="site_libs/proj4-2.6.2/proj4.min.js"></script>
+<script src="site_libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
+<link href="site_libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet">
+<script src="site_libs/leaflet-binding-2.2.2/leaflet.js"></script>
+
+
+</head>
+
+<body class="quarto-dashboard nav-fixed dashboard-fill fullcontent">
+
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">PET Estatística</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./integrantes/index.html"> 
+<span class="menu-text">Integrantes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./artigos.html"> 
+<span class="menu-text">Artigos</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./dashboards.html" aria-current="page"> 
+<span class="menu-text">Dashboards</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+<header id="quarto-dashboard-header">
+<nav class="navbar navbar-expand-md slim" data-bs-theme="dark">
+  <div class="navbar-container container-fluid">
+    <button class="navbar-toggler hidden" type="button" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-controls="dashboard-collapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>    
+
+
+    <div class="navbar-brand-container">       
+
+      <div class="navbar-title">
+        <div class="navbar-title-text"><a href="#">Recent Earthquakes in Aotearoa New Zealand</a></div>
+        
+        <div class="navbar-author">Of Weak Intensity or Greater</div>
+      </div>
+    </div>
+</div>
+</nav>
+</header></header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-layout-custom page-navbar quarto-dashboard-content bslib-gap-spacing html-fill-container bslib-page-fill">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+<!-- main -->
+
+<div class="bslib-grid-item html-fill-item bslib-grid" data-layout="fill" style="display: grid; grid-template-columns: minmax(3em, 1fr) minmax(3em, 1fr);
+grid-auto-rows: minmax(0, 1fr);">
+<div class="bslib-grid" style="display: grid; grid-template-rows: minmax(3em, max-content) minmax(3em, 1fr); grid-auto-columns: minmax(0, 1fr);">
+<div class="bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 1fr) minmax(3em, 1fr);
+grid-auto-rows: minmax(0, 1fr);">
+<div class="card valuebox cell bslib-card html-fill-container bslib-value-box bg-primary showcase-left-center" data-bslib-card-init="" data-require-bs-caller="card()">
+<div class="card-body html-fill-item html-fill-container">
+<div data-icon="stopwatch" class="html-fill-item html-fill-container value-box-grid">
+<div class="value-box-showcase html-fill-item html-fill-container">
+
+<i class="bi bi-stopwatch"></i></div>
+<div class="value-box-area">
+<p class="value-box-title">
+Hours since last earthquake
+</p>
+<p class="value-box-value">
+17
+</p>
+</div>
+</div>
+</div>
+<script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div><div class="card valuebox cell bslib-card html-fill-container bslib-value-box bg-secondary showcase-left-center" data-bslib-card-init="" data-require-bs-caller="card()">
+<div class="card-body html-fill-item html-fill-container">
+<div data-icon="activity" class="html-fill-item html-fill-container value-box-grid">
+<div class="value-box-showcase html-fill-item html-fill-container">
+
+<i class="bi bi-activity"></i></div>
+<div class="value-box-area">
+<p class="value-box-title">
+Earthquakes in the last 24 hours
+</p>
+<p class="value-box-value">
+1
+</p>
+</div>
+</div>
+</div>
+<script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
+</div>
+<div class="bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 1fr);
+grid-auto-rows: minmax(0, 1fr);">
+<div class="card cell bslib-card html-fill-container" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
+<div class="card-body html-fill-item html-fill-container">
+<div class="cell-output-display html-fill-item html-fill-container">
+<div id="dhafrmuqfh" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;" class="html-fill-item html-fill-container">
+<style>#dhafrmuqfh table {
+  font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#dhafrmuqfh thead, #dhafrmuqfh tbody, #dhafrmuqfh tfoot, #dhafrmuqfh tr, #dhafrmuqfh td, #dhafrmuqfh th {
+  border-style: none;
+}
+
+#dhafrmuqfh p {
+  margin: 0;
+  padding: 0;
+}
+
+#dhafrmuqfh .gt_table {
+  display: table;
+  border-collapse: collapse;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#dhafrmuqfh .gt_caption {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#dhafrmuqfh .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#dhafrmuqfh .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#dhafrmuqfh .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#dhafrmuqfh .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#dhafrmuqfh .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#dhafrmuqfh .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#dhafrmuqfh .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#dhafrmuqfh .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#dhafrmuqfh .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#dhafrmuqfh .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#dhafrmuqfh .gt_spanner_row {
+  border-bottom-style: hidden;
+}
+
+#dhafrmuqfh .gt_group_heading {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  text-align: left;
+}
+
+#dhafrmuqfh .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#dhafrmuqfh .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#dhafrmuqfh .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#dhafrmuqfh .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#dhafrmuqfh .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#dhafrmuqfh .gt_stub_row_group {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+#dhafrmuqfh .gt_row_group_first td {
+  border-top-width: 2px;
+}
+
+#dhafrmuqfh .gt_row_group_first th {
+  border-top-width: 2px;
+}
+
+#dhafrmuqfh .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#dhafrmuqfh .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-color: #D3D3D3;
+}
+
+#dhafrmuqfh .gt_first_summary_row.thick {
+  border-top-width: 2px;
+}
+
+#dhafrmuqfh .gt_last_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#dhafrmuqfh .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#dhafrmuqfh .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#dhafrmuqfh .gt_last_grand_summary_row_top {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: double;
+  border-bottom-width: 6px;
+  border-bottom-color: #D3D3D3;
+}
+
+#dhafrmuqfh .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#dhafrmuqfh .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#dhafrmuqfh .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#dhafrmuqfh .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#dhafrmuqfh .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#dhafrmuqfh .gt_sourcenote {
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#dhafrmuqfh .gt_left {
+  text-align: left;
+}
+
+#dhafrmuqfh .gt_center {
+  text-align: center;
+}
+
+#dhafrmuqfh .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#dhafrmuqfh .gt_font_normal {
+  font-weight: normal;
+}
+
+#dhafrmuqfh .gt_font_bold {
+  font-weight: bold;
+}
+
+#dhafrmuqfh .gt_font_italic {
+  font-style: italic;
+}
+
+#dhafrmuqfh .gt_super {
+  font-size: 65%;
+}
+
+#dhafrmuqfh .gt_footnote_marks {
+  font-size: 75%;
+  vertical-align: 0.4em;
+  position: initial;
+}
+
+#dhafrmuqfh .gt_asterisk {
+  font-size: 100%;
+  vertical-align: 0;
+}
+
+#dhafrmuqfh .gt_indent_1 {
+  text-indent: 5px;
+}
+
+#dhafrmuqfh .gt_indent_2 {
+  text-indent: 10px;
+}
+
+#dhafrmuqfh .gt_indent_3 {
+  text-indent: 15px;
+}
+
+#dhafrmuqfh .gt_indent_4 {
+  text-indent: 20px;
+}
+
+#dhafrmuqfh .gt_indent_5 {
+  text-indent: 25px;
+}
+</style>
+
+<table class="gt_table table table-sm table-striped small" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+<thead>
+<tr class="header gt_heading">
+<th colspan="5" class="gt_heading gt_title gt_font_normal gt_bottom_border"><strong>Last 10 Earthquakes</strong></th>
+</tr>
+<tr class="odd gt_col_headings">
+<th id="Magnitude" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">Magnitude</th>
+<th class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col"></th>
+<th class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col"></th>
+<th id="Location" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col">Location</th>
+<th id="Depth" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">Depth</th>
+</tr>
+</thead>
+<tbody class="gt_table_body">
+<tr class="odd">
+<td class="gt_row gt_right" headers="magnitude" style="background-color: #DD513A; color: #FFFFFF">3.7</td>
+<td class="gt_row gt_left" headers="days_ago">Yesterday</td>
+<td class="gt_row gt_left" headers="pretty_time">01:19 PM</td>
+<td class="gt_row gt_left" headers="locality">20 km west of Masterton</td>
+<td class="gt_row gt_right" headers="depth">11 km</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_right" headers="magnitude" style="background-color: #DD513A; color: #FFFFFF">3.1</td>
+<td class="gt_row gt_left" headers="days_ago">2 days ago</td>
+<td class="gt_row gt_left" headers="pretty_time">09:12 PM</td>
+<td class="gt_row gt_left" headers="locality">20 km east of Seddon</td>
+<td class="gt_row gt_right" headers="depth">10 km</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_right" headers="magnitude" style="background-color: #DD513A; color: #FFFFFF">3.0</td>
+<td class="gt_row gt_left" headers="days_ago">2 days ago</td>
+<td class="gt_row gt_left" headers="pretty_time">06:53 PM</td>
+<td class="gt_row gt_left" headers="locality">25 km south-east of Hastings</td>
+<td class="gt_row gt_right" headers="depth">20 km</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_right" headers="magnitude" style="background-color: #DD513A; color: #FFFFFF">3.7</td>
+<td class="gt_row gt_left" headers="days_ago">2 days ago</td>
+<td class="gt_row gt_left" headers="pretty_time">05:55 PM</td>
+<td class="gt_row gt_left" headers="locality">15 km north-west of Dannevirke</td>
+<td class="gt_row gt_right" headers="depth">5 km</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_right" headers="magnitude" style="background-color: #DD513A; color: #FFFFFF">3.8</td>
+<td class="gt_row gt_left" headers="days_ago">2 days ago</td>
+<td class="gt_row gt_left" headers="pretty_time">05:54 PM</td>
+<td class="gt_row gt_left" headers="locality">15 km south-east of Te Kaha</td>
+<td class="gt_row gt_right" headers="depth">5 km</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_right" headers="magnitude" style="background-color: #932667; color: #FFFFFF">2.6</td>
+<td class="gt_row gt_left" headers="days_ago">2 days ago</td>
+<td class="gt_row gt_left" headers="pretty_time">12:38 AM</td>
+<td class="gt_row gt_left" headers="locality">15 km north-west of Masterton</td>
+<td class="gt_row gt_right" headers="depth">18 km</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_right" headers="magnitude" style="background-color: #DD513A; color: #FFFFFF">3.7</td>
+<td class="gt_row gt_left" headers="days_ago">3 days ago</td>
+<td class="gt_row gt_left" headers="pretty_time">06:03 PM</td>
+<td class="gt_row gt_left" headers="locality">10 km west of Te Kaha</td>
+<td class="gt_row gt_right" headers="depth">32 km</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_right" headers="magnitude" style="background-color: #932667; color: #FFFFFF">2.6</td>
+<td class="gt_row gt_left" headers="days_ago">4 days ago</td>
+<td class="gt_row gt_left" headers="pretty_time">08:24 PM</td>
+<td class="gt_row gt_left" headers="locality">10 km south of Porangahau</td>
+<td class="gt_row gt_right" headers="depth">23 km</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_right" headers="magnitude" style="background-color: #932667; color: #FFFFFF">2.7</td>
+<td class="gt_row gt_left" headers="days_ago">4 days ago</td>
+<td class="gt_row gt_left" headers="pretty_time">04:33 PM</td>
+<td class="gt_row gt_left" headers="locality">10 km north-west of Taupo</td>
+<td class="gt_row gt_right" headers="depth">5 km</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_right" headers="magnitude" style="background-color: #932667; color: #FFFFFF">2.5</td>
+<td class="gt_row gt_left" headers="days_ago">4 days ago</td>
+<td class="gt_row gt_left" headers="pretty_time">11:59 AM</td>
+<td class="gt_row gt_left" headers="locality">Within 5 km of Tolaga Bay</td>
+<td class="gt_row gt_right" headers="depth">27 km</td>
+</tr>
+</tbody><tfoot class="gt_sourcenotes">
+<tr class="even">
+<td colspan="5" class="gt_sourcenote">Retrieved from the <a href="https://api.geonet.org.nz/">GeoNet API</a> at 2024/05/28 06:34 NZST</td>
+</tr>
+</tfoot>
+
+</table>
+
+</div>
+</div>
+</div>
+<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
+    <template>Expand</template>
+    <span class="bslib-full-screen-enter badge rounded-pill">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
+    </span>
+</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
+</div>
+</div><div class="bslib-grid" style="display: grid; grid-template-rows: minmax(3em, 1fr); grid-auto-columns: minmax(0, 1fr);">
+<div class="card cell bslib-card html-fill-container" data-title="100 Most Recent Earthquakes" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
+<div class="card-header"><div class="card-title">100 Most Recent Earthquakes</div></div>
+<div class="card-body html-fill-item html-fill-container">
+<div class="cell-output-display html-fill-item html-fill-container">
+<div class="leaflet html-widget html-fill-item-overflow-hidden html-fill-item html-fill-container" id="htmlwidget-aff0eb9c79b35415245b" style="width:100%;height:406px;"></div>
+<script type="application/json" data-for="htmlwidget-aff0eb9c79b35415245b">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addCircleMarkers","args":[[-40.89723206,-41.6243248,-39.7637291,-40.0971919,-37.86370357,-40.81866837,-37.77333069,-40.41352463,-38.61287689,-38.39836502,-43.6023674,-38.51169205,-42.82875443,-41.0586586,-39.56071854,-39.55788422,-41.68132782,-40.25523758,-39.0857048,-40.89213181,-41.68938828,-40.45879032,-38.8667861,-39.62081146,-39.48784256,-40.95888138,-40.85550308,-40.29508972,-40.30487823,-39.53081512,-39.03982925,-38.50098038,-40.31024551,-42.94426346,-40.3232193,-40.31273305,-38.77069399,-40.27713776,-38.85612106,-43.61041641,-40.07443237,-40.00030518,-39.6519928,-40.86669159,-38.16738892,-40.3281516,-40.50656509,-42.186203,-41.70082855,-41.69844437,-38.48787308,-45.39188385,-40.96708298,-40.03682484,-41.7742424,-40.44425964,-40.3425827,-39.09926224,-40.23501968,-40.35979462,-41.33275604,-39.71321869,-40.32276917,-37.87053568,-38.21500397,-38.87047958,-41.06225204,-38.61740875,-40.84135056,-37.92737579,-38.17517853,-39.04559326,-38.07650757,-40.28162384,-39.05039215,-48.70829391,-40.28496933,-40.15705614,-38.21728516,-40.30405426,-39.05252838,-38.11831284,-40.24306107,-40.23910141,-40.24751663,-40.24665833,-40.23753738,-40.23629379,-38.61941147,-38.79321857,-39.01354218,-38.39430255,-40.90907669,-39.04441071,-40.31525803,-40.30396652,-40.3011322,-39.99123383,-39.25740814,-40.82740784],[175.3974152,174.3335724,177.1414948,175.9647651,177.8050607,175.5001068,177.5459747,176.6331177,176.0251617,178.3381805,172.5258331,178.6325684,172.8651428,174.7792053,176.961853,176.9661407,174.1446228,176.3779602,177.5409088,174.9684143,174.1773987,175.8483366,177.7047158,176.7155762,175.7493439,175.5498962,176.0305786,176.6885986,176.6916962,177.1461945,176.3769684,176.2474976,176.6901398,171.5153198,176.5426483,176.259434,177.3410379,175.1898193,177.9322357,172.7554016,176.167923,175.011322,176.8305511,176.0390625,178.345108,176.2455405,175.7840881,173.5539856,174.1170044,174.1196289,178.0365906,166.9432831,175.5449982,176.562529,174.1611786,175.7312927,176.4452972,178.056839,176.6506805,174.2767487,173.0293121,175.6976013,176.5157013,178.347928,178.3946075,177.6551514,175.0815277,176.1217194,174.8436584,174.3878784,178.3427734,176.3567963,178.2539368,176.6673584,176.3518219,165.1260681,174.1794739,175.5712401,178.335968,176.6853027,176.3421936,178.3027496,176.6295929,176.6364136,176.6197205,176.6389923,176.650528,176.6344452,177.8801727,176.7705587,177.515274,178.3203398,175.2866821,176.359375,176.5652008,176.5383759,176.5478058,176.5803375,175.1986847,175.5772552],[6.339361609255151,4.882232880261449,4.567446894594026,6.441228468071973,6.628920662032138,3.220959201661433,6.358948563172209,3.178796956735901,3.575333125795582,2.921286429840235,3.486283784350151,5.882824115260416,6.857084654210587,7.029360923771153,4.954345854232128,5.594198969072643,1.15514925195638,5.574758262545132,2.84134908201626,4.025954935843165,2.561541242230622,6.070280042146223,5.839901850497261,3.447703592197458,3.847405098038254,6.896473340312324,3.50441284103252,1.840827805151552,4.299008056007057,3.697301631936199,8.391275438907108,7.88411530704013,2.550766165885103,1.240384502941172,3.134308352930732,6.31472019228813,6.510196818692541,4.846755321550481,3.989224537587252,4.777670517786524,5.2144863340169,2.283721934218288,3.337792390463983,2.706055429357099,1,6.705435928187269,8.312618050001166,7.710264801568943,2.453695920271375,3.478928200928245,5.937192708544642,10,3.727022747226042,3.055262046752322,2.597147023539756,3.505839403867969,2.392443043368832,5.939147464285172,2.519564273670302,9.443644632834845,7.914163985415635,3.428793186546959,1.684972077957222,5.245393248746227,1.820998230336518,5.60749645740417,3.410851855990371,3.224047413358206,7.724926915468096,7.096859975613866,2.093742984973643,6.065109060867308,4.795776094224108,3.206763530382853,5.550832829605381,8.681994820231882,8.484478103484502,3.905579905969546,2.689520724028927,1.702886474827045,5.454163934964314,4.500140179662135,1.755267228512504,3.988885335082897,2.25514692212236,2.562118983783363,4.465974414772815,4.645394967194242,3.50240127057253,4.991613431616993,2.769242843154267,4.193360284767939,6.132560091004589,8.762608127794749,1.973425902034055,1.615243430546951,1.980437034305501,4.513884800071948,3.925634823175893,3.39215531769267],null,null,{"interactive":true,"className":"","stroke":false,"color":["#DD513A","#DD513A","#DD513A","#DD513A","#DD513A","#932667","#DD513A","#932667","#932667","#932667","#932667","#DD513A","#DD513A","#DD513A","#DD513A","#DD513A","#932667","#DD513A","#932667","#932667","#932667","#DD513A","#DD513A","#932667","#932667","#DD513A","#932667","#932667","#932667","#932667","#FCA50A","#FCA50A","#932667","#932667","#932667","#DD513A","#DD513A","#DD513A","#932667","#DD513A","#DD513A","#932667","#932667","#932667","#420A68","#DD513A","#FCA50A","#FCA50A","#932667","#932667","#DD513A","#FCFFA4","#932667","#932667","#932667","#932667","#932667","#DD513A","#932667","#FCA50A","#FCA50A","#932667","#932667","#DD513A","#932667","#DD513A","#932667","#932667","#FCA50A","#DD513A","#932667","#DD513A","#DD513A","#932667","#DD513A","#FCA50A","#FCA50A","#932667","#932667","#932667","#DD513A","#DD513A","#932667","#932667","#932667","#932667","#DD513A","#DD513A","#932667","#DD513A","#932667","#932667","#DD513A","#FCA50A","#932667","#932667","#932667","#DD513A","#932667","#932667"],"weight":5,"opacity":0.5,"fill":true,"fillColor":["#DD513A","#DD513A","#DD513A","#DD513A","#DD513A","#932667","#DD513A","#932667","#932667","#932667","#932667","#DD513A","#DD513A","#DD513A","#DD513A","#DD513A","#932667","#DD513A","#932667","#932667","#932667","#DD513A","#DD513A","#932667","#932667","#DD513A","#932667","#932667","#932667","#932667","#FCA50A","#FCA50A","#932667","#932667","#932667","#DD513A","#DD513A","#DD513A","#932667","#DD513A","#DD513A","#932667","#932667","#932667","#420A68","#DD513A","#FCA50A","#FCA50A","#932667","#932667","#DD513A","#FCFFA4","#932667","#932667","#932667","#932667","#932667","#DD513A","#932667","#FCA50A","#FCA50A","#932667","#932667","#DD513A","#932667","#DD513A","#932667","#932667","#FCA50A","#DD513A","#932667","#DD513A","#DD513A","#932667","#DD513A","#FCA50A","#FCA50A","#932667","#932667","#932667","#DD513A","#DD513A","#932667","#932667","#932667","#932667","#DD513A","#DD513A","#932667","#DD513A","#932667","#932667","#DD513A","#FCA50A","#932667","#932667","#932667","#DD513A","#932667","#932667"],"fillOpacity":0.5},null,null,null,null,["2024-05-27 01:19 PM <br/> Magnitude: 3.7 <br/> Depth: 11  km","2024-05-26 09:12 PM <br/> Magnitude: 3.1 <br/> Depth: 10  km","2024-05-26 06:53 PM <br/> Magnitude: 3 <br/> Depth: 20  km","2024-05-26 05:55 PM <br/> Magnitude: 3.7 <br/> Depth: 5  km","2024-05-26 05:54 PM <br/> Magnitude: 3.8 <br/> Depth: 5  km","2024-05-26 12:38 AM <br/> Magnitude: 2.6 <br/> Depth: 18  km","2024-05-25 06:03 PM <br/> Magnitude: 3.7 <br/> Depth: 32  km","2024-05-24 08:24 PM <br/> Magnitude: 2.6 <br/> Depth: 23  km","2024-05-24 04:33 PM <br/> Magnitude: 2.7 <br/> Depth: 5  km","2024-05-24 11:59 AM <br/> Magnitude: 2.5 <br/> Depth: 27  km","2024-05-23 01:19 PM <br/> Magnitude: 2.7 <br/> Depth: 9  km","2024-05-23 05:18 AM <br/> Magnitude: 3.5 <br/> Depth: 25  km","2024-05-22 11:42 AM <br/> Magnitude: 3.8 <br/> Depth: 29  km","2024-05-22 10:36 AM <br/> Magnitude: 3.9 <br/> Depth: 25  km","2024-05-22 03:42 AM <br/> Magnitude: 3.2 <br/> Depth: 27  km","2024-05-22 03:38 AM <br/> Magnitude: 3.4 <br/> Depth: 26  km","2024-05-22 12:46 AM <br/> Magnitude: 2 <br/> Depth: 9  km","2024-05-21 09:11 PM <br/> Magnitude: 3.4 <br/> Depth: 39  km","2024-05-21 04:40 PM <br/> Magnitude: 2.5 <br/> Depth: 24  km","2024-05-20 10:26 PM <br/> Magnitude: 2.9 <br/> Depth: 28  km","2024-05-20 12:12 PM <br/> Magnitude: 2.4 <br/> Depth: 13  km","2024-05-17 06:03 PM <br/> Magnitude: 3.6 <br/> Depth: 6  km","2024-05-17 06:02 PM <br/> Magnitude: 3.5 <br/> Depth: 5  km","2024-05-17 12:11 PM <br/> Magnitude: 2.7 <br/> Depth: 24  km","2024-05-17 06:04 AM <br/> Magnitude: 2.8 <br/> Depth: 10  km","2024-05-17 06:04 AM <br/> Magnitude: 3.9 <br/> Depth: 26  km","2024-05-16 10:13 PM <br/> Magnitude: 2.7 <br/> Depth: 17  km","2024-05-15 01:51 PM <br/> Magnitude: 2.2 <br/> Depth: 13  km","2024-05-15 01:28 PM <br/> Magnitude: 3 <br/> Depth: 13  km","2024-05-15 03:37 AM <br/> Magnitude: 2.8 <br/> Depth: 24  km","2024-05-14 08:24 AM <br/> Magnitude: 4.4 <br/> Depth: 40  km","2024-05-14 05:50 AM <br/> Magnitude: 4.2 <br/> Depth: 108  km","2024-05-13 01:20 PM <br/> Magnitude: 2.4 <br/> Depth: 14  km","2024-05-13 11:34 AM <br/> Magnitude: 2.1 <br/> Depth: 3  km","2024-05-12 10:44 PM <br/> Magnitude: 2.6 <br/> Depth: 13  km","2024-05-12 03:47 PM <br/> Magnitude: 3.6 <br/> Depth: 5  km","2024-05-12 03:46 PM <br/> Magnitude: 3.7 <br/> Depth: 6  km","2024-05-12 06:47 AM <br/> Magnitude: 3.1 <br/> Depth: 9  km","2024-05-11 07:43 PM <br/> Magnitude: 2.9 <br/> Depth: 22  km","2024-05-10 08:05 PM <br/> Magnitude: 3.1 <br/> Depth: 5  km","2024-05-10 02:06 PM <br/> Magnitude: 3.3 <br/> Depth: 23  km","2024-05-06 08:27 PM <br/> Magnitude: 2.3 <br/> Depth: 18  km","2024-05-05 11:37 PM <br/> Magnitude: 2.7 <br/> Depth: 23  km","2024-05-05 11:17 AM <br/> Magnitude: 2.5 <br/> Depth: 17  km","2024-05-05 10:22 AM <br/> Magnitude: 2 <br/> Depth: 13  km","2024-05-05 03:20 AM <br/> Magnitude: 3.8 <br/> Depth: 5  km","2024-05-04 07:24 PM <br/> Magnitude: 4.4 <br/> Depth: 22  km","2024-05-04 12:36 PM <br/> Magnitude: 4.2 <br/> Depth: 5  km","2024-05-03 10:39 PM <br/> Magnitude: 2.4 <br/> Depth: 15  km","2024-05-03 06:10 PM <br/> Magnitude: 2.7 <br/> Depth: 12  km","2024-05-03 09:21 AM <br/> Magnitude: 3.5 <br/> Depth: 28  km","2024-05-03 04:59 AM <br/> Magnitude: 5.1 <br/> Depth: 49  km","2024-05-03 01:23 AM <br/> Magnitude: 2.8 <br/> Depth: 5  km","2024-05-02 06:59 PM <br/> Magnitude: 2.6 <br/> Depth: 7  km","2024-05-02 06:48 AM <br/> Magnitude: 2.4 <br/> Depth: 11  km","2024-05-02 02:40 AM <br/> Magnitude: 2.7 <br/> Depth: 27  km","2024-05-01 06:15 AM <br/> Magnitude: 2.4 <br/> Depth: 13  km","2024-04-30 11:13 PM <br/> Magnitude: 3.5 <br/> Depth: 23  km","2024-04-30 11:49 AM <br/> Magnitude: 2.4 <br/> Depth: 13  km","2024-04-30 04:23 AM <br/> Magnitude: 4.9 <br/> Depth: 83  km","2024-04-29 06:02 PM <br/> Magnitude: 4.2 <br/> Depth: 96  km","2024-04-29 12:46 PM <br/> Magnitude: 2.7 <br/> Depth: 10  km","2024-04-28 06:45 PM <br/> Magnitude: 2.2 <br/> Depth: 13  km","2024-04-28 10:02 AM <br/> Magnitude: 3.3 <br/> Depth: 5  km","2024-04-28 02:49 AM <br/> Magnitude: 2.2 <br/> Depth: 12  km","2024-04-27 11:26 AM <br/> Magnitude: 3.4 <br/> Depth: 40  km","2024-04-27 10:53 AM <br/> Magnitude: 2.7 <br/> Depth: 26  km","2024-04-27 07:26 AM <br/> Magnitude: 2.6 <br/> Depth: 5  km","2024-04-27 05:36 AM <br/> Magnitude: 4.2 <br/> Depth: 5  km","2024-04-26 10:25 PM <br/> Magnitude: 3.9 <br/> Depth: 12  km","2024-04-26 07:47 PM <br/> Magnitude: 2.3 <br/> Depth: 12  km","2024-04-26 07:32 PM <br/> Magnitude: 3.6 <br/> Depth: 40  km","2024-04-26 01:58 PM <br/> Magnitude: 3.1 <br/> Depth: 16  km","2024-04-26 09:10 AM <br/> Magnitude: 2.6 <br/> Depth: 15  km","2024-04-26 07:20 AM <br/> Magnitude: 3.4 <br/> Depth: 38  km","2024-04-26 07:05 AM <br/> Magnitude: 4.5 <br/> Depth: 33  km","2024-04-26 05:34 AM <br/> Magnitude: 4.5 <br/> Depth: 79  km","2024-04-26 04:10 AM <br/> Magnitude: 2.8 <br/> Depth: 32  km","2024-04-26 12:16 AM <br/> Magnitude: 2.5 <br/> Depth: 11  km","2024-04-25 04:25 PM <br/> Magnitude: 2.2 <br/> Depth: 17  km","2024-04-25 03:41 PM <br/> Magnitude: 3.3 <br/> Depth: 37  km","2024-04-25 05:41 AM <br/> Magnitude: 3 <br/> Depth: 16  km","2024-04-24 09:53 PM <br/> Magnitude: 2.2 <br/> Depth: 15  km","2024-04-24 10:50 AM <br/> Magnitude: 2.9 <br/> Depth: 15  km","2024-04-24 08:16 AM <br/> Magnitude: 2.3 <br/> Depth: 17  km","2024-04-24 06:03 AM <br/> Magnitude: 2.4 <br/> Depth: 14  km","2024-04-24 05:58 AM <br/> Magnitude: 3 <br/> Depth: 14  km","2024-04-24 05:55 AM <br/> Magnitude: 3.1 <br/> Depth: 15  km","2024-04-24 05:13 AM <br/> Magnitude: 2.7 <br/> Depth: 30  km","2024-04-24 03:01 AM <br/> Magnitude: 3.2 <br/> Depth: 19  km","2024-04-24 02:44 AM <br/> Magnitude: 2.5 <br/> Depth: 18  km","2024-04-24 02:31 AM <br/> Magnitude: 2.9 <br/> Depth: 12  km","2024-04-23 06:51 AM <br/> Magnitude: 3.6 <br/> Depth: 19  km","2024-04-22 06:57 PM <br/> Magnitude: 4.6 <br/> Depth: 39  km","2024-04-21 02:06 AM <br/> Magnitude: 2.3 <br/> Depth: 16  km","2024-04-20 11:24 PM <br/> Magnitude: 2.2 <br/> Depth: 12  km","2024-04-19 09:04 PM <br/> Magnitude: 2.3 <br/> Depth: 14  km","2024-04-19 07:46 PM <br/> Magnitude: 3 <br/> Depth: 39  km","2024-04-19 11:36 AM <br/> Magnitude: 2.8 <br/> Depth: 21  km","2024-04-19 10:35 AM <br/> Magnitude: 2.7 <br/> Depth: 9  km"],{"textsize":"15px"},null]},{"method":"addLegend","args":[{"colors":["#000004","#420A68","#932667","#DD513A","#FCA50A","#FCFFA4"],"labels":["<1","1","2","3","4",">5"],"na_color":null,"na_label":"NA","opacity":0.5,"position":"topright","type":"unknown","title":"Magnitude","extra":null,"layerId":null,"className":"info legend","group":null}]},{"method":"addTiles","args":["http://services.arcgisonline.com/arcgis/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}",null,null,{"minZoom":5,"maxZoom":10,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false}]}],"limits":{"lat":[-48.70829391,-37.77333069],"lng":[165.1260681,178.6325684]}},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
+    <template>Expand</template>
+    <span class="bslib-full-screen-enter badge rounded-pill">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
+    </span>
+</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
+
+
+<div id="3ade8a4a-fb1d-4a6c-8409-ac45482d5fc9" class="hidden">
+
+</div>
+</div>
+</div>
+
+
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Página criada com 💜 e <a href="https://quarto.org/">Quarto</a> pelo PET Estatística.</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+<script type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (_event) {
+  if (window.bslib.Card) {
+    window.bslib.Card.initializeAllCards();
+  }
+}); 
+</script>
+  
+
+
+
+</body></html>

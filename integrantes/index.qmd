@@ -1,0 +1,87 @@
+---
+title: "Integrantes"
+toc: false
+format:
+  html:
+    anchor-sections: false
+---
+
+Conheça um pouco mais sobre integrantes da nossa equipe.
+
+---
+::: {.grid}
+
+::: {.g-col-4}
+![](joel.jpg)
+
+<h4>**Joel Machado**</h4>
+
+Nascido em Vitória-ES, descobriu por acaso o curso de Estatística, em Uberlândia. Não tem tatuagem, não tem gato, não tem cachorro e não tem dinheiro. Tem uma grande dificuldade em dizer do que gosta, além da matemática, literatura, xadrez e Iron Maiden.
+:::
+ 
+::: {.g-col-4}
+![](pascal.jpeg)
+
+<h4>Pierre Pascal</h4>
+
+Entrou no pet em 2022 e ainda está meio perdido no curso. gosta de probabilidade, pastel de queijo e detesta atividade física.AAAAAAAAAAAAAA AAAAAAA
+ AAAAAAAAAAAA AAAAAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAAAAAAAA AAAAAAAAAAA AAAAAAAAAAAAAA AAAAAAAAAAAA AAAAAAAAAA
+:::
+
+::: {.g-col-4}
+![](student.jpeg)
+
+<h4>William Gosset</h4>
+
+Inferência é sua matéria preferida; entrou no PET em 2023 e desde então conseguiu desenvolver suas habilidades em programação;
+:::
+
+::: {.g-col-4}
+![](bernoulli.jpeg)
+
+<h4>Jacob Bernoulli</h4>
+
+Entrou no pet em 2019 e atualmente está no oitavo período do curso. gosta de coca-cola, torce para o vasco e mora com dois cães.
+:::
+
+::: {.g-col-4}
+![](pascal.jpeg)
+
+<h4>Pierre Pascal</h4>
+
+Entrou no pet em 2022 e ainda está meio perdido no curso. gosta de probabilidade, pastel de queijo e detesta atividade física.
+:::
+
+::: {.g-col-4}
+![](student.jpeg)
+
+<h4>William Gosset</h4>
+
+Inferência é sua matéria preferida; entrou no PET em 2023 e desde então conseguiu desenvolver suas habilidades em programação;
+:::
+
+::: {.g-col-4}
+![](bernoulli.jpeg)
+
+<h4>Jacob Bernoulli</h4>
+
+Entrou no pet em 2019 e atualmente está no oitavo período do curso. gosta de coca-cola, torce para o vasco e mora com dois cães.
+:::
+
+::: {.g-col-4}
+![](pascal.jpeg)
+
+<h4>Pierre Pascal</h4>
+
+Entrou no pet em 2022 e ainda está meio perdido no curso. gosta de probabilidade, pastel de queijo e detesta atividade física.
+:::
+
+::: {.g-col-4}
+![](student.jpeg)
+
+<h4>William Gosset</h4>
+
+Inferência é sua matéria preferida; entrou no PET em 2023 e desde então conseguiu desenvolver suas habilidades em programação;
+:::
+:::
+
