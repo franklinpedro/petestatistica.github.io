@@ -33,3 +33,9 @@ nav.navbar.navbar-expand-lg {
 .sidebar nav[role=doc-toc] ul>li>a:hover {
   color: inherit !important;
 }
+
+@media (max-width: 991.98px) {
+  .grid .g-col-4, .grid .g-col-12 {
+    grid-column: auto/span 12;
+  }
+}

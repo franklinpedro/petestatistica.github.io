@@ -12,14 +12,20 @@ website:
         text: Integrantes
       - href: artigos.qmd
         text: Artigos
-      - href: dashboards.qmd
-        text: Dashboards
+      - href: curso.qmd
+        text: O Curso
+      - href: sobre-pet.qmd
+        text: Sobre o PET
+      - href: atividades.qmd
+        text: Atividades
     background: "#172C3C"
     foreground: "#FFFFFF"
  
     right: 
       - icon: github
-        href: https://github.com
+        href: https://github.com/petestatistica
+      - icon: instagram
+        href: https://www.instagram.com/petestatisticaufu
 
   page-footer:
     left: "Página criada com 💜 e [Quarto](https://quarto.org/) pelo PET Estatística."
