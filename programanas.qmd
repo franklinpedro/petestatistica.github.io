@@ -1,0 +1,25 @@
+---
+title: "Programanas"
+toc: true
+title-block-banner: true
+toc-title: "Nesta página"
+toc-depth: 20
+link-external-newwindow: true
+editor: source
+---
+
+# O projeto
+
+A discriminação de gênero presente no Brasil tem impactado negativamente a relação de meninas e mulheres com a tecnologia desde cedo, o que se reflete em números alarmantes: apenas 17% das pessoas que programam no país são mulheres e somente 35% das pessoas que estudam áreas relacionadas a ciências, tecnologia, matemática e engenharia são do sexo feminino. Além disso, dados mostram que apenas 15% das matrículas em cursos de Ciências da Computação e Engenharias no Brasil são de mulheres. Essa realidade é também observada pelo grupo PET Estatística, que constatou a predominância de homens nos minicursos de programação que promove. Diante disso, o projeto Programanas surge como uma iniciativa essencial para promover a inclusão de meninas no universo da programação. Oferecendo cursos exclusivamente para mulheres, o projeto busca criar um ambiente acolhedor e inclusivo onde as integrantes podem trocar experiências e tirar dúvidas de programação.
+
+## Objetivos do projeto
+
+O objetivo do Programanas é promover a inclusão de meninas no universo da programação, oferecendo cursos exclusivamente para mulheres e criando um ambiente acolhedor e inclusivo. A iniciativa busca ainda fomentar a participação feminina na área de tecnologia, contrapondo- se ao cenário desfavorável atual, no qual há pouca representatividade das mulheres nesse setor. Através da troca de experiências e do suporte às dúvidas de programação, o projeto visa desenvolver habilidades e competências em mulheres para que possam ingressar e se destacar em áreas tecnológicas. Além disso, a iniciativa tem como objetivo estimular a diversidade de gênero no mercado de trabalho e em cursos de exatas, contribuindo para a construção de um ambiente profissional e acadêmico mais inclusivo e igualitário!
+
+## Nova edição: curso introdutório de ciência de dados no R
+
+Nosso projeto está de cara nova. Nesta edição será ofertado um curso de Introdução à Ciência de Dados no R. O curso será ministrado por alunas do PET Estatística e abordará conceitos básicos de programação em R, manipulação de dados e visualização de dados.
+
+Para a primeira aula, estudaremos um conjunto de dados que contém informações sobre algumas espécies de pinguins. O conjunto `palmerpenguins` é um dos conjuntos de dados mais populares para quem está começando a aprender ciência de dados e é muito utilizado em cursos introdutórios de R. O conjunto de dados contém informações sobre a espécie, o sexo, o peso, o comprimento do bico e da asa, entre outras variáveis. 
+
+Para acessar o conjunto, clique [aqui](https://drive.google.com/file/d/1aBFkO4nPSoUedt6Fsg90oEz5UY52f5NT/view?usp=sharing).

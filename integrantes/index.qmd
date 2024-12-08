@@ -19,10 +19,18 @@ Conheça um pouco mais sobre os integrantes da nossa equipe.
 ::: g-col-4
 ![](fotos-descricoes/bruno/foto_bruno.jpeg)
 
-<h4>**Bruno**</h4>
+<h4>**Bruno de Souza**</h4>
 
 Entrei no curso em 2019 e estou no PET há quase 4 anos, cursando atualmente o último período da graduação. Um pseudo-cinéfilo com um gosto eclético (às vezes duvidoso) para músicas e camisas estampadas. Minha paixão é viajar e conhecer lugares e culturas diferentes.
 :::
+
+::: g-col-4
+![](fotos-descricoes/bruno-mesquita/bruno-mesquita.jpg)
+
+<h4>**Bruno Mesquita**</h4>
+
+Sou o Bruno, um eterno aprendiz que adora tecnologia, comida boa e me aventurar por esportes aleatórios! De Jandira-SP, me defino como um curioso nato e sempre pronto para um aventura. Ah, e não vivo sem cachorro quente com purê, uva e amendoim japonês!
+::: 
 
 ::: g-col-4
 ![](fotos-descricoes/elisa/foto_elisa.png)
@@ -30,6 +38,14 @@ Entrei no curso em 2019 e estou no PET há quase 4 anos, cursando atualmente o �
 <h4>**Elisa**</h4>
 
 Entrei na Estatística em 2020 e no PET em 2021. No meu tempo livre, gosto de ler, costurar e passar tempo com pessoas queridas. Sou de Campinas-SP e sinto muita saudade dos meus irmãos (tenho 4) e de purê no cachorro-quente.
+:::
+
+::: g-col-4
+![](fotos-descricoes/erik/erik.jpg)
+
+<h4>**Erik**</h4>
+
+Olá, meu nome é Erik, tenho 21 anos e, apesar de ter dificuldade em me descrever, vou tentar. Gosto de Daft Punk, ficção científica e adoro conhecer novas pessoas.
 :::
 
 ::: g-col-4
@@ -49,11 +65,35 @@ Gosto de castanha de caju, gatos e suco prats de laranja, não necessariamente n
 :::
 
 ::: g-col-4
+![](fotos-descricoes/giulia/giulia.jpg)
+
+<h4>**Giulia**</h4>
+
+Sou de Franca, interior de SP, sim, a capital do calçado, do café e, claro, do basquete!  A cidade do maior do Brasil. A gente fala “uai”, “trem” e o “logo ali” é tão mineiro que você pode confundir. Somos mais mineiros que paulistas. Eu amo a Zaya Maria e o Tiramisù, e no meu tempo livre, sou expert em fazer nada. É uma arte!
+:::
+
+::: g-col-4
+![](fotos-descricoes/gladston/gladston.jpg)
+
+<h4>**Gladston**</h4>
+
+Sou Gladston, alguém que gosta de desafios intelectuais e tenta se aprimorar no que se propõe a fazer. Também gosto de xadrez, e o violino é minha maneira de expressar um pouco de sensibilidade.
+:::
+
+::: g-col-4
 ![](fotos-descricoes/joel/joel_foto.jpg)
 
 <h4>**Joel**</h4>
 
 Sou de Vitória-ES. Descobri por acaso o curso de Estatística, em Uberlândia. Não tenho tatuagem, não tenho gato, não tenho cachorro e não tenho dinheiro. Tenho dificuldade em dizer do que gosto, além da matemática, literatura, xadrez e Iron Maiden.
+:::
+
+::: g-col-4
+![](fotos-descricoes/jonatas/jonatas.jpg)
+
+<h4>**Jônatas**</h4>
+
+Sou o Jônatas, de Araxá. Gosto de futebol, de ler, de contar algumas piadas (de qualidade bem questionável), e de aprender coisas novas. Sou muito curioso, e acho que esse é um dos fatores que me trouxe à Estatística.
 :::
 
 ::: g-col-4
@@ -73,6 +113,14 @@ Entrei no PET no final de 2022. Não vivo sem meus fones de ouvido, amo animais 
 :::
 
 ::: g-col-4
+![](fotos-descricoes/moises/moises.jpeg)
+
+<h4>**Moisés**</h4>
+
+Escuto power metal, french house e sertanejo universitário. Jogo LoL, CS e futebol. Não torço para nenhum time, sou do tipo que assiste qualquer esporte que esteja passando. Acertei os últimos 3 campeões de Copa do Mundo. Tenho uma mente bastante viajada e me considero uma pessoa criativa. Sou o maior fã de Pepsi Black, de dormir escutando música triste e de ir ao cinema.
+:::
+
+::: g-col-4
 ![](fotos-descricoes/pedro-garcia/pedro.jpg)
 
 <h4>**Pedro Garcia**</h4>
@@ -81,11 +129,11 @@ A vida me fez estatístico e faço da minha vida estatística, unindo-a aos meus
 :::
 
 ::: g-col-4
-![](fotos-descricoes/raiane/foto-raiane.jpeg)
+![](fotos-descricoes/thiago/thiago.jpeg)
 
-<h4>**Raiane**</h4>
+<h4>**Thiago**</h4>
 
-Entrei no PET em novembro de 2021. Me tornei alguém que nunca imaginei ser: uma pessoa caseira e que ama comprar coisas para casa. Uberlândia me transformou em uma grande torcedora do Dentil Praia Clube (esperando ansiosamente pelo início da próxima temporada). Sempre que possível gosto de fazer a Noite do Cinema em Casa com meu filho com muita pipoca e brigadeiro.
+Meu nome é Thiago e sou de Barbacena-MG. Já quis ser engenheiro, programador e físico até me encontrar na estatística. Torcedor fanático do Fluminense, apaixonado por futebol e fã do Messi. Também gosto de ouvir Rock/Metal e assistir filmes e séries de ficção científica.
 :::
 
 ::: g-col-4

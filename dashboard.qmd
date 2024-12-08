@@ -1,0 +1,18 @@
+---
+title: "Dashboard"
+toc: true
+title-block-banner: true
+toc-title: "Nesta página"
+toc-depth: 20
+link-external-newwindow: true
+editor: source
+---
+
+O PET Estatística da Universidade Federal de Uberlândia criou um dashboard (painel dinâmico) sobre os crimes violentos em Minas Gerais. Para a construção desse dashbaord, utilizamos os dados disponibilizados no site da Secretaria de Justiça e Segurança Pública.
+
+No painel é possível comparar as cidades do estado por categoria de crime, como roubo, homicídio, sequestro etc. Os registros são de 2012 até o presente. O dashboard está dividido em seções. A seção **Estatísticas** apresenta indicadores, gráficos e séries temporais para análise dos dados criminais. Já a seção **Rankings** exibe a posição das cidades pela taxa de criminalidade, permitindo comparar os diferentes municípios. Por fim, a seção **Mapas** exibe um mapa de calor da criminalidade no estado, facilitando a visualização da distribuição geográfica dos crimes.
+
+Para explorar o [Painel Dinâmico](https://pet-estatistica-ufu.shinyapps.io/crimes-mg/), clique na imagem abaixo:
+
+[![](images/capa-dashboard.jpeg){width="50%" fig-align="center"}](https://pet-estatistica-ufu.shinyapps.io/crimes-mg/)
+
