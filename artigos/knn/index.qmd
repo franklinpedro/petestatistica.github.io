@@ -4,7 +4,7 @@ author: "Raiane Rosseti"
 date: 2024-07-19
 date-format: DD/MM/YYYY
 image: capa.jpeg
-categories: [modelos, knn]
+categories: [modelos]
 description: "Descubra o poder do K-Nearest Neighbors (KNN), um algoritmo intuitivo para tarefas de classificação e regressão e que possui aplicações que vão desde a identificação de spam até diagnósticos médicos."
 ---
 
